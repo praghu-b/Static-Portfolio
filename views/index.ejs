@@ -15,13 +15,13 @@
 </head>
 <body>
 
-    <%- include('partials/header') -%>
+    <!-- <%- include('partials/header') -%> -->
 
     <section class="hero-section d-flex justify-content-center align-items-center">
         <div class="container">
             <div class="row justify-content-between align-items-center">
                 <div class="col-12 col-lg-6 animate__animated animate__fadeInLeft" >
-                    <h1 class="text-purple-1 fw-bold mb-5">Hi, I'm Prakash!</h1>
+                    <h1 class="text-purple-3 fw-bold mb-5">Hi, I'm Prakash!</h1>
                     <p class="hero-text mb-5 fs-5 text-center shadow">I'm a passionate web developer with expertise in front-end technologies such as HTML, CSS, and JavaScript. I love turning ideas into beautiful and functional websites that make a positive impact. </p>
                     <button class="bg-purple-4 btn btn-rounded text-white fs-4 fw-bold">CONTACT ME</button>
                 </div>
@@ -33,9 +33,9 @@
         </div>
     </section>
 
-    <section class="about bg-purple-light-light d-flex align-items-center justify-content-center" id="about">
+    <section class="about d-flex align-items-center justify-content-center" id="about">
         <div class="container">
-            <h1 class="text-center h1 text-purple-2 fw-bold m-lg-5">About Me</h1>
+            <h1 class="h1 text-purple-2 fw-bold m-lg-5">About Me</h1>
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-lg-6 col-12">
                     <img src="assets/images/about.svg" alt="">
@@ -99,11 +99,47 @@
         </div>
     </section>
 
-    <section class="projects" id="projects">
+    <section class="projects my-5 d-flex align-items-center" id="projects">
         <div class="container">
-
+            <h1 class="h1 text-purple-2 fw-bold m-lg-5">My Projects & Practices!</h1>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 m-4 card">
+                    <img src="assets/images/projects/droptaxiride.png" alt="" class="card-img-top p-2 rounded-4">
+                    <hr>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Drop Taxi Ride</h5>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Internship</span> - Cab Booking Website</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 m-4 card">
+                    <img src="assets/images/projects/ticket.png" alt="" class="card-img-top p-2 rounded-4">
+                    <hr>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Integrated Ticketing System</h5>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Academics</span> - Local Transport Bus</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 m-4 card">
+                    <img src="assets/images/projects/weather.png" alt="" class="card-img-top p-2 rounded-4">
+                    <hr>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Weather Application</h5>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Weather Report</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 m-4 card">
+                    <img src="assets/images/projects/youtube.png" alt="" class="card-img-top p-2 rounded-4">
+                    <hr>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Youtube Clone</h5>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Recreating Youtube</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <%- include('partials/footer') -%>
 
     <!-- BOOTSTRAP JS -->
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
