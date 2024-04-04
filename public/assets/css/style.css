@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    line-height: 1.5;
+}
+
+.bg-purple-1 {
+    background-color: #570987;
+}
+
+.bg-purple-2 {
+    background-color: #7D0DC3;
+}
+
+.bg-purple-3 {
+    background-color: #A020F0;
+}
+
+.bg-purple-4 {
+    background-color: #B95CF4;
+}
+
+.bg-purple-5 {
+    background-color: #D397F8;
+}
+
+.bg-purple-light {
+    background-color: #efd6ff;
+}
+
+.bg-purple-light-light {
+    background-color: #faf1ff;
+}
+
+.bg-purple-gradient {
+    background: rgb(80,0,184);
+    background: linear-gradient(90deg, rgba(80,0,184,1) 0%, rgba(156,63,255,1) 100%);
+}
+
+.bg-purple-hover:hover {
+    background-color: #7D0DC3;
+    transition-duration: .3s;
+}
+
+.text-purple-1 {
+    color: #570987;
+}
+
+.text-purple-2 {
+    color: #7D0DC3;
+}
+
+.text-purple-3 {
+    color: #A020F0;
+}
+
+.text-purple-4 {
+    color: #B95CF4;
+}
+
+.text-purple-5 {
+    color: #D397F8;
+}
+
+.text-white {
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 10px 0 10px 0;
+}
+
+.navbar a {
+    color: white;
+}
+
+.nav-link:hover {
+    color:#B95CF4;
+}
+
+.hero-section {
+    margin: 70px 0 0px 0;
+    height: 90vh;
+    background-color: #efd6ff;
+}
+
+.hero-text {
+    padding: 15px;
+    font-size: larger;
+    background-color: #ffffff89;
+    /* border: solid 1px #7D0DC3; */
+    border-radius: 30px;
+}
+
+.btn:hover {
+    background-color: #7D0DC3;
+    transition:linear;
+    transition-duration: .5s;
+}
+
+.img {
+    z-index: 50 !important;
+}
+
+.img-bg {
+    position: absolute;
+    border-radius: 10% 70% 10% 70%;
+    width: 100%;
+    height: 100%;
+    background-color: #D397F8;
+    z-index: -1 !important;
+}
+
+.about {
+    width: 100%;
+    height: 100vh;
+}
+
+.skills {
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    /* padding: 30px 0 8px; */
+    position: relative;
+  }
+  
+  h1::before {
+    content: "";
+    position: absolute;
+    left: 7%;
+    bottom: 16px;
+    width: 150px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(238,111,87,0.5);
+    z-index: -1;
+  }
