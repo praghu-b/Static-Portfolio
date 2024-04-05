@@ -142,11 +142,26 @@ header {
     min-height: 100vh;
 }
 
+.cta {
+    width: 100%;
+    min-height: 60vh;
+    margin: 30px 0 30px 0;
+}
+
 .footer {
+    margin-top: 100px;
     width: 100%;
     min-height: 70vh;
     background: rgb(106,0,211);
     background: linear-gradient(90deg, rgba(106,0,211,1) 0%, rgba(165,92,255,1) 65%);
+}
+
+.footer-cta {
+    color: white;
+    padding: 30px;
+    margin: -100px;
+    background-color: #570987;
+    border-radius: 30px;
 }
 
 h1 {
@@ -172,7 +187,24 @@ h1::before {
     transition-duration: .5s;
 }
 
+.skills .card:hover {
+    border-color: #A020F0;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition-duration: .5s;
+}
+
 .soc-icons {
     font-size:x-large;
     width: 30px;
+}
+
+.btn-outline-purple {
+    color: #7D0DC3;
+    border: 2px solid #7D0DC3;
+}
+
+.btn-hover:hover {
+    color: white;
+    background-color: #7D0DC3;
+    transition-duration: .3s;
 }
