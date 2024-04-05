@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "Titillium Web", sans-serif;
     line-height: 1.5;
@@ -158,7 +163,7 @@ header {
 
 .footer-cta {
     color: white;
-    padding: 30px;
+    padding: 40px;
     margin: -100px;
     background-color: #570987;
     border-radius: 30px;
@@ -181,6 +186,10 @@ h1::before {
     z-index: -1;
 }
 
+.card {
+    /* border: none; */
+}
+
 .projects .card:hover {
     position: relative;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -201,6 +210,11 @@ h1::before {
 .btn-outline-purple {
     color: #7D0DC3;
     border: 2px solid #7D0DC3;
+}
+
+.btn-outline-white {
+    color: white;
+    border: 2px solid white;
 }
 
 .btn-hover:hover {

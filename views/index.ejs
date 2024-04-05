@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,19 +14,31 @@
 
 
 </head>
+
 <body>
 
     <!-- <%- include('partials/header') -%> -->
 
     <section class="hero-section d-flex justify-content-center align-items-center">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-lg-6 animate__animated animate__fadeInLeft" >
-                    <h1 class="text-purple-3 fw-bold mb-5">Hi, I'm Prakash!</h1>
-                    <p class="hero-text mb-5 fs-5 text-center shadow">I'm a passionate web developer with expertise in front-end technologies such as HTML, CSS, and JavaScript. I love turning ideas into beautiful and functional websites that make a positive impact. </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between align-items-center text-center">
+                    <div class="col-3">Div 1</div>
+                    <div class="col-3">Div 2</div>
+                    <div class="col-3">Div 3</div>
+                </div>
+            </div>
+            <div class="row justify-content-around align-items-center">
+                <div class="col-12 col-lg-5 animate__animated animate__fadeInLeft">
+                    <h1 class="text-purple-3 fw-bold mb-5">Hi, I'm Prakash!
+                        <img src="assets/icons/wave-hand.svg" width="40px" alt="">
+                    </h1>
+                    <p class="hero-text mb-5 fs-5 text-center shadow">I'm a passionate web developer with expertise in
+                        front-end technologies such as HTML, CSS, and JavaScript. I love turning ideas into beautiful
+                        and functional websites that make a positive impact. </p>
                     <button class="bg-purple-4 btn btn-rounded text-white fs-4 fw-bold">CONTACT ME</button>
                 </div>
-                <div class="col-12 col-lg-6 text-center animate__animated animate__fadeInRight">
+                <div class="col-12 col-lg-5 text-center animate__animated animate__fadeInRight">
                     <span class="img-bg shadow"></span>
                     <img class="img" src="assets/images/man.png" width="100%" alt="">
                 </div>
@@ -42,8 +55,12 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <h2 class="h2 text-purple-2 fw-bold mb-5">Wonder Who I am? - I'm Prakash</h2>
-                    <p class="fs-5 ps-lg-5">I'm a passionate and creative web developer based in Coimbatore, Tamil Nadu. With a background in Computer Science & Engineering, I specialize in crafting beautiful and user-friendly websites that leave a lasting impression.</p>
-                    <p class="fs-5 ps-lg-5">I'm always eager to collaborate on exciting projects and connect with fellow developers and enthusiasts. Feel free to reach out to me via phone or connect with me on LinkedIn.</p> 
+                    <p class="fs-5 ps-lg-5">I'm a passionate and creative web developer based in Coimbatore, Tamil Nadu.
+                        With a background in Computer Science & Engineering, I specialize in crafting beautiful and
+                        user-friendly websites that leave a lasting impression.</p>
+                    <p class="fs-5 ps-lg-5">I'm always eager to collaborate on exciting projects and connect with fellow
+                        developers and enthusiasts. Feel free to reach out to me via phone or connect with me on
+                        LinkedIn.</p>
                 </div>
             </div>
         </div>
@@ -52,8 +69,8 @@
     <section class="skills d-flex align-items-center" id="skills">
         <div class="container">
             <h1 class="h1 text-purple-2 fw-bold m-lg-5">My Skill Highlights!</h1>
-            <div class="row d-flex justify-content-center align-items-top text-center">
-                <div class="col-lg-3 card m-3">
+            <div class="row d-flex justify-content-around align-items-top text-center">
+                <div class="col-lg-3 card">
                     <img class="card-img-top p-2" src="assets/images/skills/frontend.svg" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-purple-4 fw-bold">Frontend Development</h5>
@@ -67,7 +84,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 card m-3">
+                <div class="col-lg-3 card">
                     <img class="card-img-top p-2" src="assets/images/skills/backend.svg" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-purple-4 fw-bold">Backend Development</h5>
@@ -81,7 +98,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 card m-3">
+                <div class="col-lg-3 card">
                     <img class="card-img-top p-2" src="assets/images/skills/tools.svg" alt="">
                     <div class="card-body">
                         <h5 class="card-title text-purple-4 fw-bold">Development Tools</h5>
@@ -104,8 +121,11 @@
             <div class="row text-center justify-content-center">
                 <div class="col-lg-8 col-12">
                     <h2 class="text-purple-2 fw-bold">Interested In Collaborating With Me?</h2>
-                    <p class="my-5 fs-5 text-wrap">If you're ready to embark on an exciting journey of collaboration and innovation, I'd love to hear from you! Drop me a message, and let's start creating something extraordinary.</p>
-                    <a class="btn btn-hover btn-outline-purple fs-5" href="mailto:prakashbalan555@gmail.com">Connect With Me?</a>
+                    <p class="my-5 fs-5 text-wrap">If you're ready to embark on an exciting journey of collaboration and
+                        innovation, I'd love to hear from you! Drop me a message, and let's start creating something
+                        extraordinary.</p>
+                    <a class="btn btn-hover btn-outline-purple fs-5" href="mailto:prakashbalan555@gmail.com">Connect
+                        With Me?</a>
                 </div>
             </div>
         </div>
@@ -114,37 +134,37 @@
     <section class="projects my-5 d-flex align-items-center" id="projects">
         <div class="container">
             <h1 class="h1 text-purple-2 fw-bold m-lg-5">My Projects & Practices!</h1>
-            <div class="row justify-content-center">
-                <div class="col-lg-4 m-4 card">
-                    <img src="assets/images/projects/droptaxiride.png" alt="" class="card-img-top p-none mt-3 rounded-4">
-                    <hr>
+            <div class="row d-flex justify-content-around align-items-center">
+                <div class="col-lg-5 my-3 card">
+                    <img src="assets/images/projects/droptaxiride.png" alt=""
+                        class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Drop Taxi Ride</h5>
-                        <p class="card-text"><span class="fw-bold text-purple-2">Internship</span> - Cab Booking Website</p>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Internship</span> - Cab Booking Website
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 m-4 card">
-                    <img src="assets/images/projects/ticket.png" alt="" class="card-img-top p-none mt-3 rounded-4">
-                    <hr>
+                <div class="col-lg-5 my-3 card">
+                    <img src="assets/images/projects/ticket.png" alt="" class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Integrated Ticketing System</h5>
-                        <p class="card-text"><span class="fw-bold text-purple-2">Academics</span> - Local Transport Bus</p>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Academics</span> - Local Transport Bus
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 m-4 card">
-                    <img src="assets/images/projects/weather.png" alt="" class="card-img-top p-none mt-3 rounded-4">
-                    <hr>
+                <div class="col-lg-5 my-3 card">
+                    <img src="assets/images/projects/weather.png" alt="" class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Weather Application</h5>
                         <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Weather Report</p>
                     </div>
                 </div>
-                <div class="col-lg-4 m-4 card">
-                    <img src="assets/images/projects/youtube.png" alt="" class="card-img-top p-none mt-3 rounded-4">
-                    <hr>
+                <div class="col-lg-5 my-3 card">
+                    <img src="assets/images/projects/youtube.png" alt="" class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Youtube Clone</h5>
-                        <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Recreating Youtube</p>
+                        <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Recreating Youtube
+                        </p>
                     </div>
                 </div>
             </div>
@@ -153,9 +173,10 @@
 
     <%- include('partials/footer') -%>
 
-    <!-- BOOTSTRAP JS -->
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/cd453adce5.js" crossorigin="anonymous"></script>
+        <!-- BOOTSTRAP JS -->
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="https://kit.fontawesome.com/cd453adce5.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
