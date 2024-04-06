@@ -236,7 +236,7 @@ h1::before {
 
 .btn-2:hover {
     font-weight: bold;
-    color: #570987;
+    color: white;
     border: 2px solid #B95CF4;
     background-color: #B95CF4;
     transition-duration: .3s;
