@@ -1,0 +1,323 @@
+/* Import font and global styles */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: "Titillium Web", sans-serif;
+    line-height: 1.5;
+}
+
+.h1 {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        margin-bottom: 60px;
+    }
+    .cta-col-1, .cta-col-2 {
+        margin-bottom: 30px;
+    }
+}
+
+/* Background colors */
+.bg-purple-1 { background-color: #570987; }
+.bg-purple-2 { background-color: #7D0DC3; }
+.bg-purple-3 { background-color: #A020F0; }
+.bg-purple-4 { background-color: #B95CF4; }
+.bg-purple-5 { background-color: #D397F8; }
+.bg-purple-light { background-color: #efd6ff; }
+.bg-purple-light-light { background-color: #f6e4ff; }
+.bg-purple-gradient { background: linear-gradient(90deg, rgba(80, 0, 184, 1) 0%, rgba(156, 63, 255, 1) 100%); }
+.bg-purple-hover:hover { background-color: #D397F8; transition-duration: .5s; }
+
+/* Text colors */
+.text-purple-1 { color: #570987; }
+.text-purple-2 { color: #7D0DC3; }
+.text-purple-3 { color: #A020F0; }
+.text-purple-4 { color: #B95CF4; }
+.text-purple-5 { color: #D397F8; }
+.text-white { color: white; }
+
+/* Header styles */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 10px 0 10px 0;
+}
+
+.navbar a {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #B95CF4;
+}
+
+/* Hero section styles */
+.hero-section {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #570987;
+}
+
+/* Adjust hero text styles for smaller screens */
+@media (max-width: 768px) {
+    .hero-section {
+        margin-bottom: 100px;
+    }
+    .hero-text {
+        font-size: 5px !important;
+        padding: 10px;
+    }
+    .img-bg-whole {
+        margin-top: 20px;
+    }
+}
+
+/* Button styles */
+.btn:hover {
+    background-color: #7D0DC3;
+    transition: linear;
+    transition-duration: .5s;
+}
+
+/* Image styles */
+.img {
+    z-index: 50 !important;
+}
+
+.img-bg,
+.img-bg-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 5px 10px rgba(75, 36, 95, 0.501);
+    background-color: #A020F0;
+}
+
+.img-bg { border-radius: 10% 90% 10% 90%; z-index: -1 !important; }
+.img-bg-2 { border-radius: 90% 10% 90% 10%; z-index: -2 !important; }
+
+/* About section styles */
+.about {
+    width: 100%;
+    min-height: 100vh;
+    margin: 60px 0 60px 0;
+}
+
+/* Adjust about section styles for smaller screens */
+@media (max-width: 768px) {
+    .about {
+        margin: 50px 0 50px 0;
+        padding: 0 10px 0 10px;
+    }
+}
+
+/* Skills section styles */
+.skills {
+    width: 100%;
+    min-height: 100vh;
+    margin: 60px 0 60px 0;
+}
+
+/* Adjust skills section styles for smaller screens */
+@media (max-width: 768px) {
+    .skills {
+        margin: 50px 0 50px 0;
+        padding: 0 20px 0 20px;
+    }
+}
+
+/* Projects section styles */
+.projects {
+    width: 100%;
+    min-height: 100vh;
+    margin: 60px 0 60px 0;
+}
+
+/* Adjust projects section styles for smaller screens */
+@media (max-width: 768px) {
+    .projects {
+        margin: 50px 0 50px 0;
+        padding: 0 20px 0 20px;
+    }
+}
+
+/* CTA section styles */
+.cta {
+    width: 100%;
+    min-height: 60vh;
+    margin: 30px 0 30px 0;
+}
+
+/* Adjust CTA section styles for smaller screens */
+@media (max-width: 768px) {
+    .cta {
+        min-height: 50vh;
+        padding: 0 10px 0 10px;
+    }
+}
+
+/* Contact section styles */
+.contact {
+    width: 100%;
+    min-height: 100vh;
+    margin: 60px 0 60px 0;
+}
+
+/* Adjust contact section styles for smaller screens */
+@media (max-width: 768px) {
+    .contact {
+        margin: 50px 0 50px 0;
+        padding: 0 10px 0 10px;
+    }
+}
+
+/* Footer styles */
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 70vh;
+    background: linear-gradient(90deg, rgba(106, 0, 211, 1) 0%, rgba(165, 92, 255, 1) 65%);
+}
+
+.footer-cta {
+    color: white;
+    padding: 40px;
+    margin-top: -50px;
+    background-color: #570987;
+    border-radius: 30px;
+}
+
+/* H1 styles */
+h1 { position: relative; }
+
+h1::before {
+    content: "";
+    position: absolute;
+    left: 7%;
+    bottom: 16px;
+    width: 150px;
+    height: 14px;
+    transform: skew(-12deg) translateX(-50%);
+    background: rgba(238, 111, 87, 0.5);
+    z-index: -1;
+}
+
+/* Card styles */
+.card {
+    /* border: none; */
+}
+
+.projects .card:hover,
+.skills .card:hover {
+    position: relative;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition-duration: .5s;
+}
+
+/* Social icon styles */
+.soc-icons {
+    color: white;
+    font-size: xx-large;
+    width: 50px;
+}
+
+.soc-icons:hover {
+    color: #570987;
+}
+
+/* Button styles */
+.btn-2 {
+    font-weight: bold;
+    color: #B95CF4;
+    border: 2px solid #B95CF4;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.btn-2:hover {
+    font-weight: bold;
+    color: white;
+    border: 2px solid #B95CF4;
+    background-color: #B95CF4;
+    transition-duration: .3s;
+}
+
+.btn-outline-purple {
+    color: #7D0DC3;
+    border: 2px solid #7D0DC3;
+}
+
+.btn-outline-white {
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-hover:hover {
+    color: white;
+    background-color: #7D0DC3;
+    transition-duration: .3s;
+}
+
+.btn:hover {
+    transition: .5s;
+}
+
+/* Popup styles */
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 50px 10px 50px 10px;
+    background: #7D0DC3;
+    z-index: 1000;
+}
+
+.black-shade {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.519);
+    z-index: 999;
+}
+
+/* Contact form styles */
+.contact-form-card {
+    color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Close button styles */
+.close {
+    text-decoration: none;
+    text-align: right !important;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    position: inherit;
+    top: 5px;
+    right: 10px;
+}

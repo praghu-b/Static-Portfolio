@@ -8,24 +8,30 @@
     <!-- BOOTSTRAP CSS -->
     <link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/animate.css/animate.min.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+    <style>
+        /* Adjust styles as needed */
+    </style>
 </head>
 
-<body>
+<body class="">
+
+    <div class="black-shade" id="black-shade" style="display: none;"></div>
 
     <!-- <%- include('partials/header') -%> -->
 
     <section class="hero-section bg-white d-flex justify-content-center align-items-center">
         <div class="container-fluid align-content-between">
-            <div class="row">
+            <div class="row hero-top">
                 <div class="col-12 d-flex justify-content-between align-items-center text-center">
-                    <div class="col-3 d-flex justify-content-center align-items-center">
-                        <img src="assets/images/avatar/avatar-top.svg" class="me-3" style="width: 100px;" alt="">
-                        <h2 class="fw-bold text-white">hello there !</h2>
+                    <div class="col-6 col-lg-3 d-flex justify-content-sm-center align-items-center">
+                        <img src="assets/images/avatar/avatar-top.svg" class="" style="width: 100px;" alt="">
+                        <h2 class="fw-bold d-lg-block d-none text-black">hello there !</h2>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-lg-3 align-items-center">
                         <a href="assets/docs/Resume2.pdf" download="Prakash_Resume" class="btn-2">
                             Resume/CV <i class="fas fa-download"></i>
                         </a>
@@ -37,17 +43,18 @@
                     <h2 class="text-purple-4 fs-1 fw-bold mb-5">Hi, I'm Prakash!
                         <img src="assets/icons/wave-hand.svg" width="40px" alt="">
                     </h2>
-                    <p class="bg-purple-2 text-white rounded-5 p-3 mb-5 fs-5 text-center shadow">I'm a passionate web developer with expertise in
-                        front-end technologies such as HTML, CSS, and JavaScript. I love turning ideas into beautiful
-                        and functional websites that make a positive impact. </p>
+                    <p class="bg-purple-2 text-white rounded-5 p-3 fs-5 mb-5 text-center shadow">
+                        A passionate web developer specializing in creating engaging online experiences. From captivating designs to seamless functionality, I'm here to bring your ideas to life. Let's collaborate and make something extraordinary together!
+                    </p>
                     <div class="col-lg-12 d-flex justify-content-end">
                         <button class="bg-purple-4 btn btn-rounded text-white fs-4 fw-bold">Connect Me</button>
                     </div>
                 </div>
-                <div class="col-12 col-lg-5 text-center animate__animated animate__fadeInRight">
+                <div
+                    class="col-12 img-bg-whole d-flex justify-content-center align-items-center col-lg-5 text-center animate__animated animate__fadeInRight">
                     <span class="img-bg"></span>
                     <span class="img-bg-2"></span>
-                    <img class="img" src="assets/images/avatar/avatar-hero.svg" width="90%" alt="">
+                    <img class="img" src="assets/images/avatar/avatar-hero.svg" width="100%" alt="">
                 </div>
             </div>
         </div>
@@ -58,17 +65,23 @@
             <!-- <h1 class="h1 text-purple-2 fw-bold m-lg-5">About Me</h1> -->
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-lg-6 col-12">
-                    <img src="assets/gifs/about.gif" alt="">
+                    <img src="assets/gifs/about.gif" width="100%" alt="">
                 </div>
                 <div class="col-lg-6 col-12">
                     <h2 class="h2 text-purple-2 fw-bold mb-4">Wonder Who I am? - I'm Prakash</h2>
-                    <p class="fs-5 ps-lg-5">I'm  a passionate Web Developer with a knack for Full Stack Development. Welcome to my corner of the internet, where pixels come to life and ideas take flight.</p>
+                    <p class="fs-5 ps-lg-5">I'm a passionate Web Developer with a knack for Full Stack Development.
+                        Welcome to my corner of the internet, where pixels come to life and ideas take flight.</p>
                     <br>
                     <h5 class="fw-bold mb-3 text-purple-2">A Glimpse Into My Journey :-</h5>
-                    <p class="ps-lg-5">With a background in Bachelor Of Engineering, I've spent a year honing my craft and mastering the art of fullstack development. From building a Simple Calculator to Cab Booking Application, every step of my journey has been fueled by a relentless pursuit of excellence and a thirst for innovation.</p>
+                    <p class="ps-lg-5">With a background in Bachelor Of Engineering, I've spent a year honing my craft
+                        and mastering the art of fullstack development. From building a Simple Calculator to Cab Booking
+                        Application, every step of my journey has been fueled by a relentless pursuit of excellence and
+                        a thirst for innovation.</p>
                     <br>
                     <h5 class="fw-bold mb-3 text-purple-2">Passion, Purpose & Beyond :-</h5>
-                    <p class="ps-lg-5">Beyond the buzzwords, what truly drives me is my passion. Whether it's designing an attractive frontend layouts or my robust backend coding, I believe in leveraging technology for good and making a positive impact on the world, one line of code at a time.</p>
+                    <p class="ps-lg-5">Beyond the buzzwords, what truly drives me is my passion. Whether it's designing
+                        an attractive frontend layouts or my robust backend coding, I believe in leveraging technology
+                        for good and making a positive impact on the world, one line of code at a time.</p>
                 </div>
             </div>
         </div>
@@ -77,7 +90,7 @@
     <section class="skills d-flex align-items-center" id="skills">
         <div class="container">
             <h1 class="h1 text-purple-2 fw-bold m-lg-5">My Skill Highlights!</h1>
-            <div class="row d-flex justify-content-around align-items-top text-center">
+            <div class="row gy-5 d-flex justify-content-around align-items-top text-center">
                 <div class="col-lg-3 card">
                     <img class="card-img-top p-2" src="assets/images/skills/frontend.svg" alt="">
                     <div class="card-body">
@@ -141,9 +154,9 @@
 
     <section class="projects my-5 d-flex align-items-center" id="projects">
         <div class="container">
-            <h1 class="h1 text-purple-2 fw-bold m-lg-5">My Projects & Practices!</h1>
-            <div class="row d-flex justify-content-around align-items-center">
-                <div class="col-lg-5 my-3 card bg-purple-light-light">
+            <h1 class="h1 text-purple-2 fw-bold m-lg-5">Projects & Practices!</h1>
+            <div class="row gy-4 d-flex justify-content-around align-items-center">
+                <div class="col-lg-5 card bg-purple-light-light">
                     <img src="assets/images/projects/droptaxiride.png" alt=""
                         class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
@@ -152,7 +165,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 my-3 card bg-purple-light-light">
+                <div class="col-lg-5 card bg-purple-light-light">
                     <img src="assets/images/projects/ticket.png" alt="" class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Integrated Ticketing System</h5>
@@ -160,19 +173,62 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-5 my-3 card bg-purple-light-light">
+                <div class="col-lg-5 card bg-purple-light-light">
                     <img src="assets/images/projects/weather.png" alt="" class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Weather Application</h5>
                         <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Weather Report</p>
                     </div>
                 </div>
-                <div class="col-lg-5 my-3 card bg-purple-light-light">
+                <div class="col-lg-5 card bg-purple-light-light">
                     <img src="assets/images/projects/youtube.png" alt="" class="card-img-top p-none mt-3 rounded-2">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">Youtube Clone</h5>
                         <p class="card-text"><span class="fw-bold text-purple-2">Practice</span> - Recreating Youtube
                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact d-flex justify-content-center align-items-center" id="contact">
+        <div class="container">
+            <h1 class="h1 text-purple-2 fw-bold">Contact Me</h1>
+            <div class="row justify-content-between align-items-center">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="col-lg-4 col-12 card text-center popup" id="popup" style="display: none;">
+                        <a class="close" id="close">X</a>
+                        <h4 class="card-title">Email Sent Successfully <img src="assets/icons/check.png"
+                                style="width: 40px;"></h4>
+                        <p class="card-text">You're message has been sent successfully.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="assets/gifs/contact.gif" width="100%" alt="">
+                </div>
+                <div class="col-lg-6 justify-content-center">
+                    <div class="contact-form-card bg-purple-gradient">
+                        <h3 class="text-center fw-bolder mb-4">Have Queries?</h3>
+                        <form action="/send-email" method="POST">
+                            <div class="form-group mb-3">
+                                <label class="fw-bold mb-3" for="name">Name</label>
+                                <input type="text" class="form-control" placeholder="Your Name" id="name" name="name"
+                                    required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="fw-bold mb-3" for="email">Email</label>
+                                <input type="email" class="form-control" placeholder="Your Email" id="email"
+                                    name="email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="fw-bold mb-3" for="message">Message</label>
+                                <textarea class="form-control" placeholder="What you wanna say?" id="message"
+                                    name="message" rows="3" required></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn text-right btn-hover btn-outline-white fs-5 fw-bold">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -187,7 +243,25 @@
         <script src="https://kit.fontawesome.com/cd453adce5.js" crossorigin="anonymous"></script>
 
         <script>
-            
+
+            document.addEventListener('DOMContentLoaded', function () {
+                // Check if URL contains 'success' attribute
+                const urlParams = new URLSearchParams(window.location.search);
+                const success = urlParams.get('success');
+
+                if (success === 'true') {
+                    // Display the popup card
+                    const popupCard = document.getElementById('popup');
+                    const shade = document.getElementById('black-shade');
+                    popupCard.style.display = 'block';
+                    shade.style.display = 'block';
+
+                    const closeButton = document.getElementById('close');
+                    closeButton.addEventListener('click', function () {
+                        window.location.href = '/';
+                    })
+                }
+            });
         </script>
 </body>
 
