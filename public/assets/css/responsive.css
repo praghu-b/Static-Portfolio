@@ -1,5 +1,6 @@
 /* Import font and global styles */
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 /* Global reset */
 * {
@@ -9,7 +10,8 @@
 
 /* Body styles */
 body {
-    font-family: "Titillium Web", sans-serif;
+    /* font-family: "Titillium Web", sans-serif; */
+    font-family: "Tilt Neon", sans-serif;
     line-height: 1.5;
 }
 
@@ -200,6 +202,7 @@ header {
     .skills {
         margin: 50px 0 50px 0;
         padding: 0 20px 0 20px;
+        width: 100vw;
     }
 }
 
@@ -215,6 +218,7 @@ header {
     .projects {
         margin: 50px 0 50px 0;
         padding: 0 20px 0 20px;
+        width: 100vw;
     }
 }
 
@@ -230,6 +234,7 @@ header {
     .cta {
         min-height: 50vh;
         padding: 0 10px 0 10px;
+        width: 100vw;
     }
 }
 
@@ -245,6 +250,7 @@ header {
     .contact {
         margin: 50px 0 50px 0;
         padding: 0 10px 0 10px;
+        width: 100vw;
     }
 }
 
