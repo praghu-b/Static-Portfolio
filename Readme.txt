@@ -1,10 +1,8 @@
----
-
 # Static Portfolio
 
 A static portfolio built with Node.js, Express, HTML, CSS, and JavaScript, utilizing various Node modules for enhanced functionality.
 
-## Table of Contents
+Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,22 +11,22 @@ A static portfolio built with Node.js, Express, HTML, CSS, and JavaScript, utili
 - [Scripts](#scripts)
 - [License](#license)
 
-## Installation
+Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
    ```sh
    git clone https://github.com/your-username/static-portfolio.git
    cd static-portfolio
    ```
 
-2. **Install the dependencies:**
+2. Install the dependencies:
 
    ```sh
    npm install
    ```
 
-3. **Create a `.env` file:**
+3. Create a `.env` file:
 
    ```sh
    touch .env
@@ -36,9 +34,9 @@ A static portfolio built with Node.js, Express, HTML, CSS, and JavaScript, utili
 
    Add any environment variables required for your project in the `.env` file.
 
-## Usage
+Usage
 
-1. **Start the server:**
+1. Start the server:
 
    In production mode:
 
@@ -52,11 +50,11 @@ A static portfolio built with Node.js, Express, HTML, CSS, and JavaScript, utili
    npm run dev
    ```
 
-2. **Open your browser:**
+2. Open your browser:
 
    Navigate to `http://localhost:3000` to view your portfolio.
 
-## Project Structure
+Project Structure
 
 ```
 static-portfolio/
@@ -78,12 +76,12 @@ static-portfolio/
 └── ...
 ```
 
-- **public/**: Contains static assets like CSS, JavaScript, and images.
-- **views/**: Contains EJS templates for rendering HTML.
-- **server.js**: The main server file.
-- **.env**: Environment variables file.
+- public/: Contains static assets like CSS, JavaScript, and images.
+- views/: Contains EJS templates for rendering HTML.
+- server.js: The main server file.
+- .env: Environment variables file.
 
-## Dependencies
+Dependencies
 
 - [animate.css](https://github.com/animate-css/animate.css) - A library of ready-to-use, cross-browser animations.
 - [bootstrap](https://getbootstrap.com/) - A framework for building responsive, mobile-first sites.
@@ -93,13 +91,11 @@ static-portfolio/
 - [nodemailer](https://github.com/nodemailer/nodemailer) - Easy as cake e-mail sending from your Node.js applications.
 - [nodemon](https://github.com/remy/nodemon) - A tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
-## Scripts
+Scripts
 
-- **start**: Runs `node server.js` to start the server in production mode.
-- **dev**: Runs `nodemon server.js` to start the server in development mode with automatic restarts on file changes.
+- start: Runs `node server.js` to start the server in production mode.
+- dev: Runs `nodemon server.js` to start the server in development mode with automatic restarts on file changes.
 
-## License
+License
 
 This project is licensed under the ISC License.
-
----
