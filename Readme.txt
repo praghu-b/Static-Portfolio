@@ -1,3 +1,5 @@
+---
+
 # Static Portfolio
 
 A static portfolio built with Node.js, Express, HTML, CSS, and JavaScript, utilizing various Node modules for enhanced functionality.
@@ -39,11 +41,13 @@ A static portfolio built with Node.js, Express, HTML, CSS, and JavaScript, utili
 1. **Start the server:**
 
    In production mode:
+
    ```sh
    npm start
    ```
 
    In development mode with nodemon:
+
    ```sh
    npm run dev
    ```
@@ -97,3 +101,5 @@ static-portfolio/
 ## License
 
 This project is licensed under the ISC License.
+
+---
